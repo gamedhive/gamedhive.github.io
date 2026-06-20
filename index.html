@@ -27,8 +27,15 @@ body{
     margin:0;
 }
 
-img{
+.logo{
+    width:450px;
+    max-width:90%;
     margin-bottom:20px;
+    transition:0.3s ease;
+}
+
+.logo:hover{
+    transform:scale(1.03);
 }
 
 a{
@@ -36,6 +43,7 @@ a{
     text-decoration:none;
     padding:0 10px;
     font-weight:bold;
+    transition:0.3s ease;
 }
 
 a:hover{
@@ -52,31 +60,32 @@ a:hover{
     font-size:18px;
     color:#D6E4F0;
     margin-top:15px;
-    margin-bottom:30px;
+    margin-bottom:35px;
     max-width:900px;
     margin-left:auto;
     margin-right:auto;
-    line-height:1.6;
+    line-height:1.7;
 }
 
 .youtube-btn{
     display:inline-block;
-    background:#FF0000;
+    background:#2563EB;
     color:white;
-    padding:14px 28px;
-    border-radius:8px;
+    padding:14px 30px;
+    border-radius:10px;
     font-size:18px;
-    margin-bottom:35px;
+    margin-bottom:40px;
+    box-shadow:0 4px 12px rgba(37,99,235,0.3);
 }
 
 .youtube-btn:hover{
-    background:#cc0000;
+    background:#1D4ED8;
     color:white;
 }
 
 .socials{
     margin-top:20px;
-    margin-bottom:50px;
+    margin-bottom:60px;
     font-size:22px;
 }
 
@@ -86,10 +95,10 @@ a:hover{
 }
 
 .section-title{
-    font-size:28px;
+    font-size:32px;
     font-weight:bold;
-    margin-top:40px;
-    margin-bottom:20px;
+    margin-top:20px;
+    margin-bottom:25px;
 }
 
 .video-placeholder{
@@ -99,7 +108,8 @@ a:hover{
     padding:30px;
     max-width:700px;
     margin:0 auto;
-    color:#94A3B8;
+    color:#D6E4F0;
+    line-height:2;
 }
 
 footer{
@@ -111,7 +121,7 @@ footer{
 hr{
     border:none;
     border-top:1px solid #334155;
-    margin-top:50px;
+    margin-top:60px;
     margin-bottom:25px;
 }
 
@@ -122,7 +132,7 @@ hr{
 <body>
 
 <a href="https://youtube.com/@gamedhive" target="_blank">
-    <img src="logo.png" width="450" alt="GameDhive Logo">
+    <img class="logo" src="logo.png" alt="GameDhive Logo">
 </a>
 
 <div class="tagline">
@@ -130,8 +140,9 @@ hr{
 </div>
 
 <div class="description">
-    Welcome to GameDhive – your destination for gameplay, graphics comparisons,
-    gaming shorts, remastered classics, and legendary gaming moments.
+    Welcome to GameDhive — your destination for gameplay,
+    graphics comparisons, gaming shorts, remastered classics,
+    and legendary gaming moments.
 </div>
 
 <a class="youtube-btn"
@@ -163,7 +174,10 @@ target="_blank">
 </div>
 
 <div class="video-placeholder">
-    Latest gameplay videos and graphics comparisons coming soon.
+    🎮 GTA Graphics Comparisons<br>
+    🚗 Need for Speed Remasters<br>
+    🎥 Full Gameplay Walkthroughs<br>
+    ⚡ Gaming Shorts & Highlights
 </div>
 
 <hr>
